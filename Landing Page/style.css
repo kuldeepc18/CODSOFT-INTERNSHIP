@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#first {
+    background: linear-gradient(to right, rgb(219, 219, 71), rgb(137, 41, 137));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+#icons img {
+    width: 30px;
+    mix-blend-mode: darken;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    cursor: pointer;
+    /* margin-top: 12px;
+    margin-bottom: 12px; */
+}
+
+.btn {
+    background: transparent;
+    border-radius: 20px;
+    border-color: white;
+    color: white;
+    font-size: 1rem;
+    padding: 9px;
+    cursor: pointer;
+}
+
+#request {
+    margin: 5px 0;
+}
+
+#phone {
+    margin: 0 22px;
+    color: white;
+    cursor: pointer;
+}
+
+#icon {
+    margin: 0 12px;
+}
+
+#second {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#landingpage {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+
+#second #landingpage img {
+    width: 50px;
+}
+
+#menu-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-list li {
+    margin: 0 14px;
+    padding: 9px 16px;
+    font-size: 1.25rem;
+    list-style: none;
+    cursor: pointer;
+}
+
+#menu-list li a{
+    text-decoration: none;
+    color: black;
+}
+
+#landingpage a h3 {
+    text-decoration: none;
+    color: black;
+}
+
+#search-icon img {
+    width: 25px;
+    cursor: pointer;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.5) url('/background-image.jpg');
+    background-size: cover;
+    image-rendering: optimizeQuality;
+    background-blend-mode: darken;
+}
+
+#content {
+    position: relative;
+    max-width: 72%;
+    content: "";
+    top: 45vh;
+    margin: 0 auto;
+    color: white;
+}
+
+#content h2 {
+    font-size: 2.4rem;
+    padding-bottom: 20px;
+}
+
+#content p {
+    font-size: 1rem;
+    padding-bottom: 18px;
+}
+
+.readmore {
+    background: linear-gradient(to right, rgb(219, 219, 71), rgb(137, 41, 137));
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 1rem;
+    padding: 9px;
+    cursor: pointer;
+}
+
+.request-consult {
+    background: transparent;
+    border-radius: 20px;
+    border-color: white;
+    color: white;
+    font-size: 1rem;
+    padding: 9px;
+    cursor: pointer;
+}
+
+#content::before {
+    content: '';
+    height: 100%;
+    width: 4px;
+    background: linear-gradient(to right, rgb(219, 219, 71), rgb(137, 41, 137));
+    position: absolute;
+    left: -18px;
+}
+
+#management {
+    background: linear-gradient(to right, rgb(219, 219, 71), rgb(137, 41, 137));
+    display: block;
+    ;
+    padding: 30px;
+    margin: 0px;
+    /* border-radius: 16px; */
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+    justify-content: space-evenly;
+}
+
+#management #container .item .sub-item img {
+    width: 25px;
+    mix-blend-mode: darken;
+    cursor: pointer;
+    padding-right: 15px;
+}
+
+.item {
+    color: white;
+    width: 25%;
+}
+
+.sub-item {
+    display: flex;
+    align-items: center;
+}
+
+.item .sub-item span {
+    font-size: 1.2rem;
+}
+
+#management #container .item .para {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+#about-us {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+#about {
+    width: 100vw;
+    padding: 60px;
+}
+
+#man-thinks img {
+    mix-blend-mode: darken;
+    width: 30vw;
+    border: none;
+}
+
+.h2 {
+    font-size: 1.6rem;
+    margin: 22px 0px;
+    position: relative;
+}
+
+.h2::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 80px;
+    top: 40px;
+    background: linear-gradient(to right, rgb(219, 219, 71), rgb(137, 41, 137));
+}
+
+/* #h2-ser {
+    margin-left: 17%;
+} */
+
+#h4 {
+    font-size: 1.2rem;
+    margin-bottom: 13px;
+}
+
+#about .h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#about #paragraph {
+    line-height: 25px;
+    margin-bottom: 1.2rem;
+}
+
+#services {
+    background-color: whitesmoke;
+    padding: 60px;
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 5rem;
+    /* margin: 50px;
+    padding: 20px; */
+}
+
+.service img {
+    width: 20rem;
+    aspect-ratio: 3/2;
+    margin-bottom: 1.6rem;
+    border-radius: 25px;
+}
